@@ -1,0 +1,86 @@
+.mb45 {
+  margin-bottom: 45px !important; 
+}
+
+.mb50 {
+  margin-bottom: 50px !important;
+}
+
+.mb55 {
+  margin-bottom: 55px !important;
+}
+
+.mb60 {
+  margin-bottom: 60px !important;
+}
+
+.mb65 {
+  margin-bottom: 65px !important;
+}
+
+.mb70 {
+  margin-bottom: 70px !important;
+}
+
+.mb75 {
+  margin-bottom: 75px !important;
+}
+
+.mb80 {
+  margin-bottom: 80px !important;
+}
+
+.mb85 {
+  margin-bottom: 85px !important;
+}
+
+.mb90 {
+  margin-bottom: 90px !important;
+}
+
+.mb95 {
+  margin-bottom: 95px !important;
+}
+
+.mb100 {
+  margin-bottom: 100px !important;
+}
+
+.mb105 {
+  margin-bottom: 105px !important;
+}
+
+.mb110 {
+  margin-bottom: 110px !important;
+}
+
+.mb115 {
+  margin-bottom: 115px !important;
+}
+
+@media screen and (min-width: 768px) {
+  .text {
+    color: #fff;
+  }
+  .text .read {
+    color: black;
+  }
+  .text .read p {
+    color: yellow;
+  }
+  .text .read p:nth-child(2) {
+    color: #fff;
+    font-size: 12px;
+  }
+  .text .read .dotto {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .text .read .dotto + p {
+    font-size: 12px;
+  }
+  .text .read-2 {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=test.css.map */

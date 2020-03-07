@@ -1,0 +1,18 @@
+//カラーコード
+$cMain:#fff;
+
+$font:noto,sa;
+
+@mixin hoge($color, $fSize) {
+    color: $color;
+    font-size: $fSize;
+  }
+
+$px:5;
+@for $i from 9 through 23 {
+    .mb#{$i * $px} {
+        margin-bottom:#{$i * $px}px!important;
+    }
+}
+
+$w-sp:767px;

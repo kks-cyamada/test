@@ -1,0 +1,28 @@
+@import 'setting';
+@media screen and (min-width:$w-sp + 1) {
+    .text {
+        color:$cMain;
+        .read {
+            color:black;
+            p {
+                color:yellow;
+                &:nth-child(2) {
+                    @include hoge($cMain, 12px)
+                }
+            }
+            .dotto {
+                font-size: 18px;
+                font-weight: bold;
+                &+p {
+                    font-size: 12px;
+                }
+            }
+            &-2 {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width: $w-sp) {
+
+}
